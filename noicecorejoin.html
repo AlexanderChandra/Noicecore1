@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="noicecore.css">
+	<script type="text/javascript" src="noicecore.js"></script>
+</head>
+<body>
+	<header>
+			<img src="speaker.png" alt="speaker logo">
+	        <h1>NOICECORE</h1>
+	        <nav>
+	            <a href="noicecore.html">HOME</a>
+	            <a href="noicecoreproducts.html">PRODUCTS</a>
+	            <a href="noicecoreabout.html">ABOUT</a>
+	            <a href="noicecoredeals.html">DEALS</a>
+	            <a href="accessories.html"></a>
+	            <a href="noicecorejoin.html">JOIN MEMBERSHIP</a>
+	        </nav>
+	        <div class="actions">
+	            <a href="dukungan.html">Dukungan</a>
+	            <a href="business.html">For Business ➡️</a>
+	            <div class="search-bar">
+	                <input type="text" placeholder="Cari">
+	            </div>
+	            <a href="cart.html">🛒</a>
+	            <a href="account.html">👤</a>
+	        </div>
+	    </header>
+	    <br><br>
+	    <div class="form-container-join">
+    <div class="form-group-join">
+      <label for="name">Name</label>
+      <input type="text" id="name">
+    </div>
+
+    <div class="form-group-join">
+      <label for="email">Email</label>
+      <input type="email" id="email">
+    </div>
+
+    <div class="form-group-join">
+      <label>Gender</label>
+      <div class="gender-options-join">
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+      </div>
+    </div>
+
+    <div class="form-group-join">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob">
+    </div>
+
+    <div class="form-group-join">
+      <label for="password">Password</label>
+      <div class="password-group-join">
+        <input type="password" id="password">
+        <span class="eye-icon-join" onclick="toggleVisibility('password')">👁️</span>
+      </div>
+    </div>
+
+    <div class="form-group-join">
+      <label for="confirm">Konfirmasi Password</label>
+      <div class="password-group-join">
+        <input type="password" id="confirm">
+        <span class="eye-icon-join" onclick="toggleVisibility('confirm')">👁️</span>
+      </div>
+    </div>
+
+    <div class="terms-group-join">
+      <input type="checkbox" id="terms">
+      <label for="terms">I have read and agree to all the terms and conditions.</label>
+    </div>
+  </div>
+  <div class="buttondata-all">
+	<button class="buttondata" onclick="alert('Data Saved. Thankyou for joining us!')">Click Me</button>
+  </div>
+	    
+</body>
+</html>
